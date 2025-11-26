@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body
+{
+    margin: 0;
+    padding: 0;
+    background: url("ubian.jpg");
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+    font-family: 'Arial';
+}
+.login{
+        width: 300px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #800000;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+label{
+    color: #ffff00;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+	
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+	</style>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+		<a href="OPAC.html">Login</a>
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>Remember me</span>
+        <br><br>
+        <a href="LOGIN.html">Forgot Password</a>
+    </form>
+</div>
+</body>
+</html>
