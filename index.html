@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shane Keh | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .card a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shane Keh</h1>
+    <p>IT Student | Web Developer</p>
+
+    <h2>My Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>CafeLuntian POS</h3>
+        <p>Point of Sale System for CafeLuntian.</p>
+        <a href="CafeLuntian-main/" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>UB OPAC</h3>
+        <p>Online Public Access Catalog system.</p>
+        <a href="https://github.com/Shane-eeey/UB_OPAC" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="card">
+        <h3>CampusLens</h3>
+        <p>Smart Campus Navigation App.</p>
+        <a href="https://github.com/Shane-eeey/CampusLens" target="_blank">View on GitHub</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
